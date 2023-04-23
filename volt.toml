@@ -1,0 +1,31 @@
+name = "plugin-name"
+version = "0.0.0"
+author = "eloilson"
+display-name = "<plugin-display-name>"
+description = "<plugin-description>"
+wasm = "bin/lapce-plugin-template.wasm"
+icon = "python-logo-only.png"
+
+[activation]
+language = ["Css", "Less"]
+workspace-contains = [ "*/*.css",, "*/*.less"]
+
+[config."volt.serverPath"]
+default = ""
+description = "Path to typescript-language-server"
+
+[config."volt.serverArgs"]
+default = ["--stdio"]
+description = "LSP server arguments to pass when launching"
+
+# [config."lspSettingArray"]
+# default = []
+# description = ""
+
+# [config."lspSettingString"]
+# default = ""
+# description = ""
+
+# [config."lspSettingBool"]
+# default = false
+# description = ""
