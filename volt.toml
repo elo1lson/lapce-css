@@ -1,18 +1,19 @@
-name = "plugin-name"
-version = "0.0.0"
+name = "lapce-css"
+version = "0.0.1"
 author = "eloilson"
-display-name = "<plugin-display-name>"
-description = "<plugin-description>"
-wasm = "bin/lapce-plugin-template.wasm"
-icon = "python-logo-only.png"
+display-name = "Css"
+description = "Adds CSS and SCSS support"
+repository = "https://github.com/eloilson/lapce-css"
+wasm = "bin/lapce-css.wasm"
+icon = "css.svg"
 
 [activation]
-language = ["Css", "Less"]
-workspace-contains = [ "*/*.css",, "*/*.less"]
+language = ["css","scss"]
+workspace-contains = ["*/*.css", "*/*.scss"]
 
 [config."volt.serverPath"]
 default = ""
-description = "Path to typescript-language-server"
+description = "Path to css-language-server"
 
 [config."volt.serverArgs"]
 default = ["--stdio"]
