@@ -1,6 +1,4 @@
-# Lapce plugin for Css/Scss
-
-![Css demo]('./assets/css.png')
+# Lapce plugin for css/scss
 
 ## Prerequisites
 
@@ -18,3 +16,10 @@ npm i --global vscode-css-language-server
 serverPath = "<custom executable>"
 serverArgs = ["--stdio"] # --stdio is required for all LSPs written in nodejs
 ```
+## In Action!
+![Css demo](./assets/css.png)
+>
+![Css demo](./assets/css2.png)
+>
+![Css demo](./assets/err.png)
+>
