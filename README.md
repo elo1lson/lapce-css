@@ -1,5 +1,7 @@
 # Lapce plugin for Css/Scss
 
+![Css demo]('./assets/css.png')
+
 ## Prerequisites
 
 Install `vscode-css-language-server` via `npm` or your system package manager  

@@ -3,7 +3,7 @@ version = "0.0.1"
 author = "eloilson"
 display-name = "Css"
 description = "Adds CSS and SCSS support"
-repository = "https://github.com/eloilson/lapce-css"
+repository = "https://github.com/elo1lson/lapce-css"
 wasm = "bin/lapce-css.wasm"
 icon = "css.svg"
 
