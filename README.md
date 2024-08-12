@@ -6,7 +6,7 @@ Install `vscode-langservers-extracted` via `npm` or your system package manager
 Server needs to be in one of the paths included in `PATH` environment variable
 
 ```
-npm i -g vscode-langservers-extracted.
+npm i -g vscode-langservers-extracted
 ```
 
 ## Available configuration

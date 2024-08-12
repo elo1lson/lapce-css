@@ -1,11 +1,11 @@
 name = "lapce-css"
-version = "0.0.1"
+version = "0.0.2"
 author = "eloilson"
 display-name = "Css"
 description = "Adds CSS and SCSS support"
 repository = "https://github.com/elo1lson/lapce-css"
 wasm = "bin/lapce-css.wasm"
-icon = "css.svg"
+icon = "CSS_icon.svg"
 
 [activation]
 language = ["css","scss"]
