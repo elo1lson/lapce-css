@@ -16,6 +16,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Install wasm32-wasi target
+      run: rustup target add wasm32-wasi
     - name: Install cargo-make
       run: cargo install cargo-make
     - name: Run cargo make dev
